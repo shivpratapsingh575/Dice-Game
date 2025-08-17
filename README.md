@@ -1,6 +1,12 @@
-# Dice-Game
-You choose a number between 1 and 6.
+# React + Vite
 
-Then you press a button to roll the dice.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-If the random number from the dice roll matches the number you selected, you win (or get some kind of feedback).
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
